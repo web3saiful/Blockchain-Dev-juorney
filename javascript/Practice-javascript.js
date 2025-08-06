@@ -7,3 +7,7 @@ console.log(a*b); //multiplication
 console.log(a/b); //division
 console.log(a%b);//modulus
 console.log(a**b); //exponentiation
+
+
+// todo Assignment operatorslet c = 5;
+c += 2; // c = c + 2        
