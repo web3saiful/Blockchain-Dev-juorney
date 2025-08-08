@@ -1,11 +1,55 @@
-let x =7;
-let y =9;
-let z =++x- --y+x++;
-console.log(x);
+// let x =7;
+// let y =9;
+// let z =++x- --y+x++;
+// console.log(x);
 
-console.log(z);
+// console.log(z);
 
-let a ="5"
-let b =5
-console.log(a==b);
-console.log(a===b);
+
+
+
+
+
+
+// let a ="5"
+// let b =5
+// console.log(a===b);
+// console.log(a===b);
+
+
+
+
+// let a=5
+// let a=5;
+// let b=9;
+// console.log(a>b&& a<b);
+// console.log(a<b ||a>b);
+// console.log(!(a>b || a<b));
+
+
+
+// const currentYear=2025;
+// let birthYear=promt("Enter your birth year");
+// let age=currentYear-birthYear;
+// console.log("You are " + age + " years old");
+
+
+
+
+// let age =16;
+// if(age>=18){
+//     console.log(you can give vote);
+// }else{
+//     console.log("you cannot give vote");
+// }
+let age=15;
+if(age>0 && age <=5){
+    console.log("YOU are a child");
+
+}else if(age >5&& age <12){
+    console.log("YOU are a young");
+}else if(age>12 && age <25){
+    console.log("you are an adult");
+}else {
+    console.log("you are old");
+}
