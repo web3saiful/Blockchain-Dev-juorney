@@ -62,6 +62,8 @@
 // }
 
 
+//  Again
+
 
 let dayNum=4;
 if(dayNum==1){
@@ -83,3 +85,33 @@ if(dayNum==1){
 else{
     console.log("Day Number is not valid");
 }
+
+// switch statement
+let dayNum=4;
+switch (dayNum){
+    case 1:
+        console.log("Today is Friday");
+        break;
+        case 2:
+            console.log("Today is saturday");
+            break;
+            case 3:
+                console.log("Today is Sunday");
+                break;
+                case 4:
+                    console.log("Today is Monday");
+                    break;
+                    case 5:
+                        console.log("Today is Tuesday");
+                        break;
+                        case 6:
+                            console.log("Today is Wednesday");
+                            break;
+                            case 7:
+                                console.log("Today is Thursday");
+                                break;
+                                default:
+                                    console.log("Day Number is not valid");
+                                    break;
+}
+
