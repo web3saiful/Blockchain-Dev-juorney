@@ -42,14 +42,44 @@
 // }else{
 //     console.log("you cannot give vote");
 // }
-let age=15;
-if(age>0 && age <=5){
-    console.log("YOU are a child");
 
-}else if(age >5&& age <12){
-    console.log("YOU are a young");
-}else if(age>12 && age <25){
-    console.log("you are an adult");
-}else {
-    console.log("you are old");
+
+
+// else if ladder
+// swith statement
+// switch(condition)
+
+// let age=15;
+// if(age>0 && age <=5){
+//     console.log("YOU are a child");
+
+// }else if(age >5&& age <12){
+//     console.log("YOU are a young");
+// }else if(age>12 && age <25){
+//     console.log("you are an adult");
+// }else {
+//     console.log("you are old");
+// }
+
+
+
+let dayNum=4;
+if(dayNum==1){
+    console.log("Today is Friday");
+
+}else if(dayNum==2){
+    console.log("Today is saturday");
+}else if(dayNum==3){
+    console.log("Today is sunday");
+}else if(dayNum==4){
+    console.log("Today is Monday");
+}else if(dayNum==5){
+    console.log("Today is Tuesday");
+}else if(dayNum==7){
+    console.log("Today is wednesday");
+}else if(dayNum==7){
+    console.log("Today is Thrusday");
+}
+else{
+    console.log("Day Number is not valid");
 }
