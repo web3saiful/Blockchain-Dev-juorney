@@ -164,9 +164,21 @@
 
 
 
-
 // mulitiple of 5
-let constant=5;
-for(let n=1; n<=10; n++){
-    console.log(constant* n);
+// let constant=5;
+// for(let n=1; n<=10; n++){
+//     console.log(constant* n);
+// }
+
+
+
+
+
+
+
+// sequence
+let sum=0;
+for(let n=1;n<=20;n++){
+    sum=Sum+n;
 }
+console.log(sum);
