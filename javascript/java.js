@@ -65,53 +65,101 @@
 //  Again
 
 
-let dayNum=4;
-if(dayNum==1){
-    console.log("Today is Friday");
+// let dayNum=4;
+// if(dayNum==1){
+//     console.log("Today is Friday");
 
-}else if(dayNum==2){
-    console.log("Today is saturday");
-}else if(dayNum==3){
-    console.log("Today is sunday");
-}else if(dayNum==4){
-    console.log("Today is Monday");
-}else if(dayNum==5){
-    console.log("Today is Tuesday");
-}else if(dayNum==7){
-    console.log("Today is wednesday");
-}else if(dayNum==7){
-    console.log("Today is Thrusday");
-}
-else{
-    console.log("Day Number is not valid");
+// }else if(dayNum==2){
+//     console.log("Today is saturday");
+// }else if(dayNum==3){
+//     console.log("Today is sunday");
+// }else if(dayNum==4){
+//     console.log("Today is Monday");
+// }else if(dayNum==5){
+//     console.log("Today is Tuesday");
+// }else if(dayNum==7){
+//     console.log("Today is wednesday");
+// }else if(dayNum==7){
+//     console.log("Today is Thrusday");
+// }
+// else{
+//     console.log("Day Number is not valid");
+// }
+
+// // switch statement
+// let dayNum=4;
+// switch (dayNum){
+//     case 1:
+//         console.log("Today is Friday");
+//         break;
+//         case 2:
+//             console.log("Today is saturday");
+//             break;
+//             case 3:
+//                 console.log("Today is Sunday");
+//                 break;
+//                 case 4:
+//                     console.log("Today is Monday");
+//                     break;
+//                     case 5:
+//                         console.log("Today is Tuesday");
+//                         break;
+//                         case 6:
+//                             console.log("Today is Wednesday");
+//                             break;
+//                             case 7:
+//                                 console.log("Today is Thursday");
+//                                 break;
+//                                 default:
+//                                     console.log("Day Number is not valid");
+//                                     break;
+// }
+
+
+
+
+
+
+
+
+// // while loop
+
+// let num=0;{
+//     while(num<=100){
+//         console.log(num);
+//         num++;
+//     }
+// }
+
+
+
+// // do while loop
+
+
+// do{
+//     console.log(num);
+//     num++;
+// }while(num<=100);
+
+
+
+
+
+
+// //  infinite loop
+// let num=0;
+//  while(true){
+//     console.log(num);
+//     num++;
+//  }
+
+
+let num=0
+for (;num<=100;num++){
+    console.log(num);
 }
 
-// switch statement
-let dayNum=4;
-switch (dayNum){
-    case 1:
-        console.log("Today is Friday");
-        break;
-        case 2:
-            console.log("Today is saturday");
-            break;
-            case 3:
-                console.log("Today is Sunday");
-                break;
-                case 4:
-                    console.log("Today is Monday");
-                    break;
-                    case 5:
-                        console.log("Today is Tuesday");
-                        break;
-                        case 6:
-                            console.log("Today is Wednesday");
-                            break;
-                            case 7:
-                                console.log("Today is Thursday");
-                                break;
-                                default:
-                                    console.log("Day Number is not valid");
-                                    break;
-}
+
+
+
 
