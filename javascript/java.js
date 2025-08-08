@@ -154,12 +154,20 @@
 //  }
 
 
-let num=0
-for (;num<=100;num++){
-    console.log(num);
+// let num=0
+// for (;;){
+//     console.log(num);
+//     num++;
+
+// }
+
+
+
+
+mulitiple of 5
+
+
+let constant=5;
+for(let n=1; n<=10; n++){
+    console.log(constant* n);
 }
-
-
-
-
-
