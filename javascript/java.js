@@ -177,8 +177,22 @@
 
 
 // sequence
-let sum=0;
-for(let n=1;n<=20;n++){
-    sum=Sum+n;
+// let sum=0;
+// for(let n=1;n<=20;n++){
+//     sum=Sum+n;
+// }
+// console.log(sum);
+
+
+//  1. Function declaration
+function greet (name){
+return `hello,${name}`;
 }
-console.log(sum);
+Function Expression 
+const greet2 =function(name){
+    return `Hey there,${name}`;
+}
+Arrow Function (modern and concise)
+const greet3 =(name)=>{
+    return `Hi, ${name}`;
+};
