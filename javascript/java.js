@@ -185,14 +185,29 @@
 
 
 //  1. Function declaration
-function greet (name){
-return `hello,${name}`;
+// function greet (name){
+// return `hello,${name}`;
+// }
+// Function Expression 
+// const greet2 =function(name){
+//     return `Hey there,${name}`;
+// }
+// Arrow Function (modern and concise)
+// const greet3 =(name)=>{
+//     return `Hi, ${name}`;
+// };
+
+
+let x=10;
+if(x>5){
+    let y =20;
+    console.log(y);
 }
-Function Expression 
-const greet2 =function(name){
-    return `Hey there,${name}`;
+console.log (y);
+ 
+let x=10;
+if(x>5){
+    let y =20;
+    console.log(y);
 }
-Arrow Function (modern and concise)
-const greet3 =(name)=>{
-    return `Hi, ${name}`;
-};
+console.log (y);
