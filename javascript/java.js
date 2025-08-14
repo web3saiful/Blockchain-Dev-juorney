@@ -255,27 +255,27 @@
 
 
 
-// code driven function
-function myFunction(fullName,age,dateOfBith=2005) {
-    console.log ('Hello '+fullName + ' I am ' 
-        +age+ 'My date of birth is '+dateOfBith);
+// // code driven function
+// function myFunction(fullName,age,dateOfBith=2005) {
+//     console.log ('Hello '+fullName + ' I am ' 
+//         +age+ 'My date of birth is '+dateOfBith);
     
-}
-myFunction('saiful',19,2005);
-myFunction('shovo', 35,2000  );
+// }
+// myFunction('saiful',19,2005);
+// myFunction('shovo', 35,2000  );
 
 
-// event driven function
- function isSubscribed(){
-    console.log('subscribed');
- }
-document.getElementById('btn').addEventListener('click', isSubscribed);
+// // event driven function
+//  function isSubscribed(){
+//     console.log('subscribed');
+//  }
+// document.getElementById('btn').addEventListener('click', isSubscribed);
 
-// self-invoking function
+// // self-invoking function
 
-(function (message){
-    console.log('I am self-invoking Fuction',message);
-})('hello world');
+// (function (message){
+//     console.log('I am self-invoking Fuction',message);
+// })('hello world');
 
 
 
@@ -291,22 +291,41 @@ document.getElementById('btn').addEventListener('click', isSubscribed);
 
 
 // About return statement in javascript
-let math =function(x,y){
-    console.log('testimg if I am working of not');
-    return x*y;
-};
-console.log (math (3,4));
-console.log (math (2,5));
-console.log (math(4,5)); 
+// let math =function(x,y){
+//     console.log('testimg if I am working of not');
+//     return x*y;
+// };
+// console.log (math (3,4));
+// console.log (math (2,5));
+// console.log (math(4,5)); 
 
 
 
-function newFunction (){
-    let firxtName='Ali';
-    console.log(firstName);
-}
-newFunction();
-Function newFunctions(){
-    let firstName='Ali';
-    console.log(firstName)
-}
+// function newFunction (){
+//     let firstName='Ali';
+//     console.log(firstName);
+// }
+// newFunction();
+// function newFunctions(){
+//     let firstName='Ali';
+//     console.log(firstName)
+// }
+
+
+// let numbers=[4,5,6,7,8,9,10,2];
+// let sqNumbers=numbers.map (function(number){
+//     return number*number;
+
+// })
+// console.log(sqNumbers);
+
+
+
+
+
+// array functions
+// let add=functon(X,y){
+//     return x+y;
+// };
+// console.log(add(5,6));
+
