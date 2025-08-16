@@ -329,14 +329,47 @@
 // };
 // console.log(add(5,6));
 
-let add=(x,y)=>x+y;
-console.log(add(5,6));
+// let add=(x,y)=>x+y;
+// console.log(add(5,6));
 
 
-nested function
-function greet (firstname){
-    function sayHello(){   
-        function('hello'+firstName);
-    }
-    return sayHello();
-}
+// nested function
+
+// function greet (firstname){
+//     function sayHello(){   
+//         function('hello'+firstName);
+//     }
+//     return sayHello();
+// }
+
+
+
+
+
+// Objects in javascript and also called literals
+
+const newSymb= Symbol('key1');
+const mobileModel={
+    brand:'samsung',
+    
+    model:'s24 Ultra',
+    prossesor: 'sanpdragon gen 3',
+    camera: [200,50,10],
+    hasZoomCamra:true,
+    'battery':'5000Ma',
+    [newSymb]:'MyKey1',
+
+};
+
+console.log(mobileModel.brand);
+Object. freeze(mobileModel);  
+mobileModel.brand='Apple'; //This will not change the brand
+;
+console.log(mobileModel.hasOwnProperty('camera'));
+console.log(mobileModel.hasOwnProperty('camera'));
+
+console.log(Object.keys(mobileModel));
+console.log(Object.values(mobileModel));
+console.log(mobileModel['battery']);
+console.log(mobileModel[newSymb]);
+
