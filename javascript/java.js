@@ -371,5 +371,5 @@ console.log(mobileModel.hasOwnProperty('camera'));
 console.log(Object.keys(mobileModel));
 console.log(Object.values(mobileModel));
 console.log(mobileModel['battery']);
-console.log(mobileModel[newSymb]);
+console.log(mobileModel[newSymb]); 
 
