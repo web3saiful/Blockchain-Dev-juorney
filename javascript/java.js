@@ -346,30 +346,46 @@
 
 
 
-// Objects in javascript and also called literals
+// // Objects in javascript and also called literals
 
-const newSymb= Symbol('key1');
-const mobileModel={
-    brand:'samsung',
+// const newSymb= Symbol('key1');
+// const mobileModel={
+//     brand:'samsung',
     
-    model:'s24 Ultra',
-    prossesor: 'sanpdragon gen 3',
-    camera: [200,50,10],
-    hasZoomCamra:true,
-    'battery':'5000Ma',
-    [newSymb]:'MyKey1',
+//     model:'s24 Ultra',
+//     prossesor: 'sanpdragon gen 3',
+//     camera: [200,50,10],
+//     hasZoomCamra:true,
+//     'battery':'5000Ma',
+//     [newSymb]:'MyKey1',
 
-};
+// };
 
-console.log(mobileModel.brand);
-Object. freeze(mobileModel);  
-mobileModel.brand='Apple'; //This will not change the brand
-;
-console.log(mobileModel.hasOwnProperty('camera'));
-console.log(mobileModel.hasOwnProperty('camera'));
+// console.log(mobileModel.brand);
+// Object. freeze(mobileModel);  
+// mobileModel.brand='Apple'; //This will not change the brand
+// ;
+// console.log(mobileModel.hasOwnProperty('camera'));
+// console.log(mobileModel.hasOwnProperty('camera'));
 
-console.log(Object.keys(mobileModel));
-console.log(Object.values(mobileModel));
-console.log(mobileModel['battery']);
-console.log(mobileModel[newSymb]); 
+// console.log(Object.keys(mobileModel));
+// console.log(Object.values(mobileModel));
+// console.log(mobileModel['battery']);
+// console.log(mobileModel[newSymb]); 
 
+
+//enent
+
+function subscribe(){
+    document.getElementById('text').innerHTML=
+    'Subscribed'; 
+    document.getElementById('btn').style.
+    backgroundColor='#262626';
+} 
+
+
+function like(){
+    document.getElementById('like').innerHTML=<i class="fa-solid fa-thumbs-up"></i>
+    'Liked';
+    
+}
