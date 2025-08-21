@@ -6,12 +6,19 @@
 <title>Document</title>
 <link rel="stylesheet" href="js.css">
 </head>
-<body>
+<body onload="onload()">
 <h1 id="title">Javascript is Fun</h1>
-<button ondblclick="subscribe()"
-
- id="btn">Subscribed</button>
+<button onclick="subscribe()" id="btn">Subscribed</button>
 <h2 id="text"> </h2> 
+<form action="" id="form" onkeyup="keyPress();"> 
+    <label for="">Name</label>
+    <input type="text" placeholder="Enter Your Name">
+    <label for="">Email</label>
+    <input type="email" placeholder="Enter Your Email">
+    <label for="">Message</label>
+    <textarea placeholder="Enter Your Message "></textarea>
+    <input type="submit" placeholder="Send Message">
+</form>
 
 </body>
 
