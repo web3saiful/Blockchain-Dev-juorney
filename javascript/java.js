@@ -419,3 +419,33 @@ let str2="Sharadha";
 
 
 
+
+//enent
+
+// function subscribe(){
+//     document.getElementById('text').innerHTML=
+//     'Subscribed'; 
+//     document.getElementById('btn').innerHTML=
+//     'Subscribed'; 
+
+//     document.getElementById('btn').style.
+//     backgroundColor='#262626';
+// } 
+
+
+// function like(){
+//     document.getElementById('like').innerHTML=<i class="fa-solid fa-thumbs-up"></i>
+//     'Liked';
+    
+// }
+
+// function keypress(){
+//     document.getElementById("text").innerHTML='Key Presed';
+// }
+// keypress();
+
+// function onload(){
+//     alert('Testing javascript Onload');
+//     document.getElementById('text').innerHTML=
+//     'Website Loeaded Properly'
+// }
