@@ -408,9 +408,9 @@
 
 
 
-apna college===========
-let str ="ApnaCollege";
-let str2="Sharadha";
+// apna college===========
+// let str ="ApnaCollege";
+// let str2="Sharadha";
 
 
 
@@ -449,3 +449,15 @@ let str2="Sharadha";
 //     document.getElementById('text').innerHTML=
 //     'Website Loeaded Properly'
 // }
+
+
+// const numbers =[45,4,9,16,25]
+// function myFunction(value,index,array){
+//     console.log(value);
+//     console.log(index);
+//     console.log(array);
+//     console.log(".........");
+// }
+
+
+
