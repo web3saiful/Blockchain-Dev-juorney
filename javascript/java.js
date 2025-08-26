@@ -13,3 +13,6 @@ if (number > 5) {
   console.log("Number is 5 or less");
 }
 
+for (let i = 1; i <= 5; i++) {
+  console.log("Counting: " + i);
+}
