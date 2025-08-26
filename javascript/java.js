@@ -16,3 +16,8 @@ if (number > 5) {
 for (let i = 1; i <= 5; i++) {
   console.log("Counting: " + i);
 }
+let fruits = ["Apple", "Banana", "Mango"];
+
+console.log(fruits[0]); // Apple
+
+console.log(fruits[1]); // Banana
