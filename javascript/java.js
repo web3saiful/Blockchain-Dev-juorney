@@ -7,8 +7,17 @@
 
 
 
-  var strtype=`uu`;
-  console.log(typeof strtype)
+//   var strtype=`uu`;
+//   console.log(typeof strtype)
 
-  var numType=66;
-  console.log(typeof numType)
+//   var numType=66;
+//   console.log(typeof numType)
+
+
+function say (message,name){
+    return{
+        message,
+        name
+    }
+}
+console.log(say(me and you))
