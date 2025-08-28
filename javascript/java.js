@@ -14,10 +14,17 @@
 //   console.log(typeof numType)
 
 
-function say (message,name){
-    return{
-        message,
-        name
-    }
+// function say (message,name){
+//     return{
+//         message,
+//         name
+//     }
+// }
+// console.log(say(me and you))
+
+
+
+const array =[6,7,8,9,10];
+for (AmiArray in array){
+    console.log(AmiArray)
 }
-console.log(say(me and you))
