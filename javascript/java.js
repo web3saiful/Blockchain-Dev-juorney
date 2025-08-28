@@ -67,3 +67,4 @@ let person =class{
     }
 }
 let NewPerson=new person("Hublu Programmer", 18, "Programmer");
+console.log(NewPerson)
