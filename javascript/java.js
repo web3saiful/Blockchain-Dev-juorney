@@ -34,6 +34,20 @@
 // }
 
 
-const Array =[1,2,3,4,5,6,7,8,9,];
-let [a,b,c,...z]=Array;
-console.log(b)
+// const Array =[1,2,3,4,5,6,7,8,9,];
+// let [a,b,c,...z]=Array;
+// console.log(b)
+  
+const obj={
+    name:"eshan",
+    age:18,
+    Id:2,
+}
+const {name,age, Id}=obj
+console.log(Id
+
+)
+
+
+
+
