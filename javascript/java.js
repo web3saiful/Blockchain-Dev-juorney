@@ -24,7 +24,11 @@
 
 
 
-const array =[6,7,8,9,10];
-for (AmiArray in array){
-    console.log(AmiArray)
+// const array =[6,7,8,9,10];
+// for (AmiArray in array){
+//     console.log(AmiArray)
+// }
+const array =[1,2,3,4,5]
+for(NewArray of array){
+    console.log(NewArray)
 }
