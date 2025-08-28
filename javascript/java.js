@@ -59,4 +59,11 @@
 // console.log(BookDetails)
 
 
-
+let person =class{
+    constructor(name,age,profe){
+        this.name=name;
+        this.age=age;
+        this.profe=profe;
+    }
+}
+let NewPerson=new person("Hublu Programmer", 18, "Programmer");
