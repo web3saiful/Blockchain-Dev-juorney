@@ -38,16 +38,25 @@
 // let [a,b,c,...z]=Array;
 // console.log(b)
   
-const obj={
-    name:"eshan",
-    age:18,
-    Id:2,
+// const obj={
+//     name:"eshan",
+//     age:18,
+//     Id:2,
+// }
+// const {name,age, Id}=obj
+// console.log(Id
+
+// )
+class Book {
+    constructor(BookName,Price){
+        this.BookName=BookName;
+        this.Price=Price;
+
+    }
 }
-const {name,age, Id}=obj
-console.log(Id
 
-)
-
+let BookDetails=new Book("rich dad poor dad","300 Tk");
+console.log(BoosDetails)
 
 
 
