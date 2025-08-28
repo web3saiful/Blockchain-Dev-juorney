@@ -47,16 +47,16 @@
 // console.log(Id
 
 // )
-class Book {
-    constructor(BookName,Price){
-        this.BookName=BookName;
-        this.Price=Price;
+// class Book {
+//     constructor(BookName,Price){
+//         this.BookName=BookName;
+//         this.Price=Price;
 
-    }
-}
+//     }
+// }
 
-let BookDetails=new Book("rich dad poor dad","300 Tk");
-console.log(BoosDetails)
+// let BookDetails=new Book("rich dad poor dad","300 Tk");
+// console.log(BookDetails)
 
 
 
