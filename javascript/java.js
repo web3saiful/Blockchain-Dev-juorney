@@ -1,4 +1,5 @@
-let age =10;
-age=24;
-const name="eshan";
+  function say (message="Hello Hablu Programmer"){
 
+      console.log (message)
+    };
+  say("Eshan How Are You?")
