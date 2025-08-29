@@ -70,11 +70,18 @@
 // console.log(NewPerson)
 
 
-class Book{
-     static fun (){
-        console.log("Hey Eshan");
-    }
+// class Book{
+//      static fun (){
+//         console.log("Hey Eshan");
+//     }
+// }
+
+
+// Book.fun()
+
+
+
+let array =['1','b','c','6']
+for (let i=0; i<array.length;i++){
+    console.log(array[i])
 }
-
-
-Book.fun()
