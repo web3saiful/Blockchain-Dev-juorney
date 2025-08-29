@@ -59,12 +59,22 @@
 // console.log(BookDetails)
 
 
-let person =class{
-    constructor(name,age,profe){
-        this.name=name;
-        this.age=age;
-        this.profe=profe;
+// let person =class{
+//     constructor(name,age,profe){
+//         this.name=name;
+//         this.age=age;
+//         this.profe=profe;
+//     }
+// }
+// let NewPerson=new person("Hublu Programmer", 18, "Programmer");
+// console.log(NewPerson)
+
+
+class Book{
+     static fun (){
+        console.log("Hey Eshan");
     }
 }
-let NewPerson=new person("Hublu Programmer", 18, "Programmer");
-console.log(NewPerson)
+
+
+Book.fun()
